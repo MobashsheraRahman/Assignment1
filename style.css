@@ -26,7 +26,7 @@
   align-items: center;
 }
 
- ul {
+ul {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -143,7 +143,6 @@ header {
   color: #575757ff;
 }
 
-
 .pricing {
   padding: 90px 0;
 }
@@ -156,8 +155,8 @@ header {
 
 .subtitle {
   text-align: center;
-  font-size:13px;
-  color:   #888888FF;
+  font-size: 13px;
+  color: #888888ff;
   margin-bottom: 55px;
 }
 
@@ -175,7 +174,7 @@ header {
 }
 
 .dark-card {
-  background:  #0d1b2aFF;;
+  background: #0d1b2aff;
   color: white;
 }
 
@@ -187,7 +186,7 @@ header {
 }
 
 .dark-card .plan {
-  color:  #93c5fdFF;
+  color: #93c5fdff;
 }
 
 .price-card h3 {
@@ -197,24 +196,23 @@ header {
 
 .small-text {
   font-size: 13px;
-  color:  #888888FF;
+  color: #888888ff;
   margin-bottom: 20px;
 }
 
 .dark-card .small-text {
-  color:  #ffffff50;
+  color: #ffffff50;
 }
 
 .price-card hr {
   border: none;
-  border-top: 1px solid  #e5e7ebFF;
+  border-top: 1px solid #e5e7ebff;
   margin-bottom: 20px;
 }
 
 .dark-card hr {
-  border-top: 1px solid  #ffffff1A;
+  border-top: 1px solid #ffffff1a;
 }
-
 
 .feature-list {
   list-style: none;
@@ -243,11 +241,9 @@ header {
   top: 8px;
 }
 
-
 .dark-card .feature-list li {
-  color:#ffffffCC;
+  color: #ffffffcc;
 }
-
 
 .outline-btn {
   width: 100%;
@@ -259,16 +255,89 @@ header {
   font-weight: 700;
   cursor: pointer;
 }
-.contact-btn{
-    width: 100%;
+.contact-btn {
+  width: 100%;
   padding: 12px;
-  border: 1px solid #0d1b2aFF;;
+  border: 1px solid #0d1b2aff;
   border-radius: 8px;
   background: white;
-  color: #0d1b2aFF;
+  color: #0d1b2aff;
   font-weight: 700;
   cursor: pointer;
 }
 .dark-card .common-btn {
   width: 100%;
+}
+
+.why-attend {
+  padding: 90px 0;
+  background: #f8fafc;
+}
+
+.why-attend h2 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.benefits {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.benefit-card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 35px 25px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+
+.icon {
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+
+.benefit-card h3 {
+  font-size: 22px;
+  color: #0d1b2a;
+  margin-bottom: 12px;
+}
+
+.benefit-card p {
+  font-size: 15px;
+  color: #575757;
+  line-height: 1.7;
+}
+
+.footer {
+  background: #0D1B2A;
+  padding: 32px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  color: #FFFFFF40;
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 28px;
+}
+
+.footer-links a {
+  color: #FFFFFF40;
+  text-decoration: none;
+  font-size: 14px;
+
 }
