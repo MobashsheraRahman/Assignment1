@@ -1,7 +1,7 @@
 * {
-     margin:0;
-    padding:0;
-  
+  margin: 0;
+  padding: 0;
+
   font-family: "Open Sans", sans-serif;
 }
 .logo {
@@ -39,14 +39,14 @@ ul li a {
   color: #575757;
 }
 
-
 header {
-  background: radial-gradient(
-        circle at left bottom,
-        rgba(0,0,0,.95) 0%,
-        rgba(0,0,0,.75) 35%,
-        rgba(0,0,0,.35) 50%,
-        transparent 100%
+  background:
+    radial-gradient(
+      circle at left bottom,
+      rgba(0, 0, 0, 0.95) 0%,
+      rgba(0, 0, 0, 0.75) 35%,
+      rgba(0, 0, 0, 0.35) 50%,
+      transparent 100%
     ),
     url("./images/banner.jpg");
   height: 90vh;
@@ -55,35 +55,95 @@ header {
   background-position: center;
   position: relative;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
-  justify-content:start;
-  
+  justify-content: start;
 }
-
-
-
 
 .header-content {
-    color: white;
+  color: white;
   text-align: center;
-display: grid;
- margin-top: 100px;
- justify-content: center;
- align-items:center;
- max-width:1000px;
- font-size: 30px;
-
+  display: grid;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  font-size: 30px;
 }
-.header-content p{
-    max-width:580px;
-    font-size:15px;
-    
-
+.header-content p {
+  max-width: 580px;
+  font-size: 15px;
 }
 
 .header-content button {
-margin-top: 250px;
-display:inline-block;
-justify-self:center;
+  margin-top: 250px;
+  display: inline-block;
+  justify-self: center;
+}
+
+
+.speakers {
+    padding: 80px 0;
+    background: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1321px;
+    margin: auto;
+}
+
+.speakers h2 {
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 56px;
+}
+
+.speaker-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+
+.card {
+    background: white;
+    border: 1px solid #e5e7ebFF;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 324px;
+    object-fit: cover;
+    display: block;
+}
+
+.card {
+    padding: 16px;
+}
+
+
+.category {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color:  #2563ebFF;
+    margin-bottom: 8px;
+}
+
+.card-content h3 {
+    font-size: 20px;
+    color:#0d1b2aFF;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+
+.card-content p {
+    font-size: 14px;
+    color:  #575757FF;
+    
 }
